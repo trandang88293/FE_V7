@@ -1,0 +1,90 @@
+:root{
+  --color--212529: #212529;
+  --color-ffd333: #ffd333;
+  --color-47ad24: #47ad24;
+  --color-e52e2e: #e52e2e;
+  --color-828599: #828599;
+  --color-3d464d: #3d464d;
+  --color-c3d4da: #c3d4da;
+
+}
+body{
+  font-family: Roboto, sans-serif;
+}
+main{
+  overflow-y: scroll;
+  height: 100vh;
+  background-color: transparent !important;
+}
+.main::-webkit-scrollbar{
+  width:  0px;
+}
+.green{
+  color: var(--color-47ad24);
+}
+.red{
+  color: var(--color-e52e2e);
+}
+/* Main layout */
+.ant-layout{
+  min-height: 100vh;
+}
+.ant-layout-sider{
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+.ant-layout-sider-collapsed{
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+.sm-logo{
+  display: none;
+}
+.ant-layout-sider-collapsed .sm-logo{
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo{
+  display: none;
+}
+.logo{
+  background-color: #ffd333 !important;
+  margin: 0;
+  height: 64px;
+}
+.ant-menu-title-content{
+  font-size: 16px;
+}
+.ant-layout-header h5{
+  line-height: 30px;
+  font-size: 14px;
+}
+.ant-layout-header p{
+  line-height: 20px;
+  font-size: 13px;
+}
+.ant-layout-header div .badge{
+  top: 16px;
+  right: -5px;
+}
+/*Main Layout end*/
+
+.quill{
+  background-color: white;
+}
+.form-control{
+  box-shadow: none !important;
+  border-color: var( --color-c3d4da);
+}
+.dropdown-item{
+  height: auto;
+  line-height: 25px !important;
+}
+
+.error{
+  color: var(--color-e52e2e);
+  font-size: 12px;
+}
